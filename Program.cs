@@ -18,9 +18,9 @@ namespace Numbers
             Console.WriteLine("Enter 2nd Number :");
             input = Console.ReadLine();
             num2 = Convert.ToInt32(input);
-            Console.WriteLine("Sum is : {0}", Sum(num1, num2));
+            Console.WriteLine("The sum is : {0}", Sum(num1, num2));
             //{0} takes 1st argument and substitutes into string
-            Console.WriteLine("Power of : {0}", Power(num1, num2));
+            Console.WriteLine("num1 to the power of num2 is : {0}", Power(num1, num2));
             Console.ReadKey();  //waits for a key to press before ending
         }
 

@@ -20,7 +20,7 @@ namespace Numbers
             num2 = Convert.ToInt32(input);
             Console.WriteLine("Sum is : {0}", Sum(num1, num2));
             //{0} takes 1st argument and substitutes into string
-            Console.WriteLine("Power of : {0}", Calculation(num1, num2));
+            Console.WriteLine("Power of : {0}", Power(num1, num2));
             Console.ReadKey();  //waits for a key to press before ending
         }
 
@@ -29,7 +29,7 @@ namespace Numbers
             return x + y;
 
         }
-        static double Calculation(int x, int y)
+        static double Power(int x, int y)
         {
             return Math.Pow(x, y);
         }
